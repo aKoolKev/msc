@@ -51,25 +51,25 @@
 
         <!-- Brooke -->
         <CardComp 
-            name="Brooke" 
-            imgUrl="./about-page-img/Brooke.jpg" 
-            imgAlt="Image of the tutor, Brooke">
+            name="" 
+            imgUrl="" 
+            imgAlt="">
             <AccordianComp generalArray={generalTopic} specialArray={['Calculus 1', 'Physics']}>
                 <AccordionItem slot="about-me" classInactive="hover:bg-[var(--lu-gold)]" classActive="bg-[var(--lu-gold)]">
                     <h2 slot="header" class="mx-auto font-bold text-xl">About Me</h2>
                     <List tag="ul" class="black-color text-left leading-loose">
-                        <Li><span>Status/Year:</span> Student, Senior</Li>
-                        <Li><span>Major:</span> Mathematics (BS) with an emphasis in Actuarial Science</Li>
-                        <Li><span>Minor:</span> Spanish</Li>
-                        <Li><span>Hometown:</span> Bloomington, Illinois</Li>
-                        <Li><span>Favorite math course:</span> Financial Theory of Mathematics</Li>
-                        <Li><span>Favorite thing about math:</span> How it is consistent with concrete answers.</Li>
-                        <Li><span>Fun fact:</span> I have taken 10 years of piano lessons.</Li>
+                        <Li><span>Status/Year:</span></Li>
+                        <Li><span>Major:</span> </Li>
+                        <Li><span>Minor:</span> </Li>
+                        <Li><span>Hometown:</span> </Li>
+                        <Li><span>Favorite math course:</span> </Li>
+                        <Li><span>Favorite thing about math:</span> </Li>
+                        <Li><span>Fun fact:</span> </Li>
                     </List>  
                 </AccordionItem>
                 <AccordionItem slot="availability" classInactive="hover:bg-[var(--lu-gold)]" classActive="bg-[var(--lu-gold)]">
                     <h2 slot="header" class="mx-auto font-bold text-xl">General Availability</h2>
-                    <p>M T W R F</p>
+                    <p></p>
                 </AccordionItem>
             </AccordianComp>
         </CardComp>
